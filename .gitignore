@@ -1,33 +1,59 @@
-HELP.md
+# Ignore Maven and build directories
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+build/
 
-### STS ###
+# Ignore IDE-specific files
+.idea/
+*.iws
+*.iml
+*.ipr
 .apt_generated
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+# Ignore logs and temporary files
+*.log
+logs/
+hs_err_pid*
+replay_pid*
 
-### NetBeans ###
+# Ignore compiled class files
+*.class
+
+# Ignore JAR, WAR, and ZIP files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore NetBeans private files
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
+# Ignore STS (Spring Tool Suite) specific files
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+# Ignore VS Code settings
 .vscode/
+
+# Ignore BlueJ files
+*.ctxt
+
+# Ignore Mobile Tools for Java (J2ME)
+.mtj.tmp/
